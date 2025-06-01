@@ -2,7 +2,7 @@ import { preload, init, update, draw } from './game';
 
 const canvas = document.getElementById('cnvs');
 canvas.width = 600;
-canvas.height = window.innerHeight;
+canvas.height = 590;
 
 canvas.addEventListener('click', (e) => {
     const rect = canvas.getBoundingClientRect();
